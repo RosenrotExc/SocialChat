@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SocialChat", "SocialChat\SocialChat.csproj", "{F6BF8D8E-DCC4-497A-8C66-20AF4E79377A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{DC094E1F-B2E8-40F3-A408-BD50648A45EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialChat.Domain.Core", "SocialChat.Domain.Core\SocialChat.Domain.Core.csproj", "{74AB75E2-A4C5-4117-86E8-7C0DE5B8740B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialChat.Domain.Interfaces", "SocialChat.Domain.Interfaces\SocialChat.Domain.Interfaces.csproj", "{B934D4EF-3F42-4125-B767-90283B662ED0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{FAE86344-BF45-4807-B6E2-57016984214F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialChat.Services.Interfaces", "SocialChat.Services.Interfaces\SocialChat.Services.Interfaces.csproj", "{CD46A3D7-F0A6-41BD-919B-414B3B88F965}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{2C843CF2-0D78-47B2-9E0F-8F3A55774CA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialChat.Infrastructure.Data", "SocialChat.Infrastructure.Repository\SocialChat.Infrastructure.Data.csproj", "{BDCE9C82-684A-4DC2-8497-EF9FA2161E46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialChat.Infrastructure.Business", "SocialChat.Infrastructure.Business\SocialChat.Infrastructure.Business.csproj", "{F2CCC30E-A9C4-4CB3-A421-C044D892018F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{650F6673-195E-49E1-B211-AC519B55A4E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialChat.Infrastructure.Business.UnitTests", "SocialChat.Infrastructure.Business.UnitTests\SocialChat.Infrastructure.Business.UnitTests.csproj", "{51D63D13-074F-45A9-8D6E-9D0F5A196751}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6BF8D8E-DCC4-497A-8C66-20AF4E79377A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6BF8D8E-DCC4-497A-8C66-20AF4E79377A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6BF8D8E-DCC4-497A-8C66-20AF4E79377A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6BF8D8E-DCC4-497A-8C66-20AF4E79377A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74AB75E2-A4C5-4117-86E8-7C0DE5B8740B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74AB75E2-A4C5-4117-86E8-7C0DE5B8740B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74AB75E2-A4C5-4117-86E8-7C0DE5B8740B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74AB75E2-A4C5-4117-86E8-7C0DE5B8740B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B934D4EF-3F42-4125-B767-90283B662ED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B934D4EF-3F42-4125-B767-90283B662ED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B934D4EF-3F42-4125-B767-90283B662ED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B934D4EF-3F42-4125-B767-90283B662ED0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD46A3D7-F0A6-41BD-919B-414B3B88F965}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD46A3D7-F0A6-41BD-919B-414B3B88F965}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD46A3D7-F0A6-41BD-919B-414B3B88F965}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD46A3D7-F0A6-41BD-919B-414B3B88F965}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDCE9C82-684A-4DC2-8497-EF9FA2161E46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDCE9C82-684A-4DC2-8497-EF9FA2161E46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDCE9C82-684A-4DC2-8497-EF9FA2161E46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDCE9C82-684A-4DC2-8497-EF9FA2161E46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2CCC30E-A9C4-4CB3-A421-C044D892018F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2CCC30E-A9C4-4CB3-A421-C044D892018F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2CCC30E-A9C4-4CB3-A421-C044D892018F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2CCC30E-A9C4-4CB3-A421-C044D892018F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51D63D13-074F-45A9-8D6E-9D0F5A196751}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51D63D13-074F-45A9-8D6E-9D0F5A196751}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51D63D13-074F-45A9-8D6E-9D0F5A196751}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51D63D13-074F-45A9-8D6E-9D0F5A196751}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{74AB75E2-A4C5-4117-86E8-7C0DE5B8740B} = {DC094E1F-B2E8-40F3-A408-BD50648A45EE}
+		{B934D4EF-3F42-4125-B767-90283B662ED0} = {DC094E1F-B2E8-40F3-A408-BD50648A45EE}
+		{CD46A3D7-F0A6-41BD-919B-414B3B88F965} = {FAE86344-BF45-4807-B6E2-57016984214F}
+		{BDCE9C82-684A-4DC2-8497-EF9FA2161E46} = {2C843CF2-0D78-47B2-9E0F-8F3A55774CA2}
+		{F2CCC30E-A9C4-4CB3-A421-C044D892018F} = {2C843CF2-0D78-47B2-9E0F-8F3A55774CA2}
+		{650F6673-195E-49E1-B211-AC519B55A4E9} = {2C843CF2-0D78-47B2-9E0F-8F3A55774CA2}
+		{51D63D13-074F-45A9-8D6E-9D0F5A196751} = {650F6673-195E-49E1-B211-AC519B55A4E9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C9224D9F-14CB-43F7-B710-2E467C04E57E}
+	EndGlobalSection
+EndGlobal
